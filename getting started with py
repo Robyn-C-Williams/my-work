@@ -1,0 +1,17 @@
+"""
+First, the user must enter their name. I will use the variable 'user_name' and the input function, to collect the users name. 
+I will then use the print function to test the input and output. 
+I will also input a space after the text in order to make the front end look more natural. 
+"""
+user_name = input ("Please enter your name ")
+print (user_name)
+"""
+I will then prompt the user to enter their age. 
+To do this, I will use the same method. 
+I will first create a variable called 'user_age' and use the print function to output the input.
+I will also input a space after the text in order to make the front end look more natural. 
+"""
+user_age = input ("Please enter your age ")
+print (user_age)
+#I will finish this program with the print statement 'Hello World!' on a new line. 
+print ("Hello World!")
