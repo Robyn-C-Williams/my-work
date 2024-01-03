@@ -1,0 +1,20 @@
+"""
+I will use the input command to get the following; name, age, house number, and street name. 
+I will name the variables similarly to the type of data inputted in order to make my program concise and readable.
+I will add a space at the end of each sentence in order to naturalise the print output aesthetic.
+"""
+
+user_name = input ("Please enter your name ")
+user_age = input ("Please enter your age ")
+user_house_number = input ("Please enter your house number ")
+user_street_name = input ("Please enter your street name ")
+
+"""
+I will then use the .format function to concatenate the details inputted as they different data types. 
+Using .format can allow me to index which allows for more manipulative code.
+To output the data entered I will use the print function.
+"""
+#For the output, I will use the .format function to input the inputted data into a sentence describing the user.
+
+print ("This is {}. They are {} years old. Their address is {}, {}.".format(user_name, user_age, user_house_number, user_street_name))
+
