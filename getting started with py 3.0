@@ -1,0 +1,36 @@
+"""
+In this task I will create 4 variables containing data of different types
+"""
+# Below are examples of implicit data. The data values of the variables are automatically set.
+num1 = 99.23
+num2 = 23
+num3 = 150
+string1 = "100"
+
+# To change the data values into a different class type - I will need to typecast the data. 
+# To do this, I will need to create new variables that store the implicit variables as the data value, rather than the value of the variables. 
+
+# I have created a new variable - storing num1 with an integer class to cast the implicit float data to integer data.
+num1_integer = int (num1)
+
+# I have created a new variable - storing num2 with a float class to cast the implicit integer data to float data.
+num2_float = float (num2)
+
+# I have created a new variable - storing num3 with a string class to cast the implicit integer data to string data.
+num3_string = str (num3)
+
+# I have created a new variable - storing string1 with an interger class to cast the implicit string data to integer data.
+string1_integer = int (string1)
+
+# As the data class for all variables above (both implicit and explict) are different - when printing the data I am not able to use the + operator using a normal string function as only string data types can be concatenated.
+# To print the data I must use either an f string or .format to print the data in a string. 
+# To print each variables value on a separate line, I will use the \n escape character instead of scripting on different lines, to save space.
+# I will print the data with both an f string and .format to demonstrate the output values of both being the same.
+
+print ("Below are the typecast values, scripted in an f string.")
+print (f"{num1_integer}\n{num2_float}\n{num3_string}\n{string1_integer}")
+print ("\n")
+print ("Below are the type cast values, scripted using .format")
+print ("{}\n{}\n{}\n{}\n".format(num1_integer, num2_float, num3_string, string1_integer))
+
+
